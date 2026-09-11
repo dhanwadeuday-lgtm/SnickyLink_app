@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../core/network/api_client.dart';
+import '../../../core/network/api_client.dart';
 
 class CommunityRepository {
   final ApiClient _apiClient;

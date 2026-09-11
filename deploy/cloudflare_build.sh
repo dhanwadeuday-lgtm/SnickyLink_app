@@ -48,6 +48,7 @@ if [ ! -f web/index.html ]; then
 fi
 
 flutter pub get
+flutter analyze --no-fatal-infos || true
 flutter build web --release --dart-define="API_BASE_URL=${API_BASE_URL}"
 
 # Cloudflare Pages/Workers should serve index.html for client-side routes.

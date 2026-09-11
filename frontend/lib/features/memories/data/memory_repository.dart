@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../core/network/api_client.dart';
+import '../../../core/network/api_client.dart';
 
 class MemoryRepository {
   final ApiClient _apiClient;

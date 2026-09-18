@@ -8,24 +8,24 @@
     "android": "expo run:android"
   },
   "dependencies": {
-    "expo": "^57.0.0",
-    "expo-constants": "*",
+    "expo": "^57.0.9",
     "expo-build-properties": "*",
+    "expo-constants": "*",
     "expo-image-picker": "*",
     "expo-linking": "*",
     "expo-router": "*",
     "expo-splash-screen": "*",
     "expo-status-bar": "*",
-    "react": "19.1.0",
-    "react-native": "0.82.0",
-    "react-native-reanimated": "~4.5.1",
-    "react-native-worklets": "*",
-    "react-native-safe-area-context": "*",
-    "react-native-screens": "*",
-    "@react-native-async-storage/async-storage": "*"
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-reanimated": "4.5.1",
+    "react-native-worklets": "0.10.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "@react-native-async-storage/async-storage": "2.2.0"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
-    "typescript": "~5.9.2"
+    "@types/react": "~19.2.4",
+    "typescript": "~6.0.3"
   }
 }

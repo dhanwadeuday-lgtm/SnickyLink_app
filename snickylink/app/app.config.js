@@ -16,5 +16,5 @@ module.exports = {
     'expo-router',
     ['expo-build-properties', { android: { usesCleartextTraffic: true } }],
   ],
-  extra: { eas: { projectId: null } },
+  extra: { eas: { projectId: '62ef66cf-2d36-49fc-87fd-2c100f520c46' } },
 };
